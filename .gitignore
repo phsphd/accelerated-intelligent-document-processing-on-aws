@@ -1,4 +1,5 @@
 .env
+.claude
 .aws-sam
 build.toml
 model.tar.gz
