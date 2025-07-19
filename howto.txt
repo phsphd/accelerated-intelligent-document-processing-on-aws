@@ -1,0 +1,9 @@
+source venv/Scripts/activate
+cd lib/idp_common_pkg && pip install -e ".[all]"
+# Run notebooks
+cd notebooks/examples
+jupyter notebook step0_setup.ipynb
+
+git add .
+git commit -m "IDPmarket"
+git push 
